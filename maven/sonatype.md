@@ -228,6 +228,8 @@ For deploying your project to [Sonatype][1]:
   4. Select your staging repository (your_artifact_id-10XX)
   5. Click `Close`
   6. Click `Release`
+  
+![screenshot of sample](/maven/resources/sonatype/sonatype_repository.png "Repository example")
 
 If You release in first time then need left comment for employees on [Sonatype][1] on created issue. After some time
 you will get access to sync with [Maven Central][0]. This need make just once.
