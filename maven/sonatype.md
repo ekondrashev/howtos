@@ -195,7 +195,7 @@ Add to Maven `settings.xml` file:
                 <password>${GITHUB_PASSWORD}</password>
             </server>
         ...
-   	 	</servers>	
+      </servers>	
     ```
   * Gpg profile
     ```xml
@@ -234,9 +234,15 @@ For deploying your project to [Sonatype][1]:
 If You release in first time then need left comment for employees on [Sonatype][1] on created issue. After some time
 you will get access to sync with [Maven Central][0]. This need make just once.
 
+## Links
+* [habrahabr][6]
+* [sonatype.org][7]
+
 [0]: https://search.maven.org/
 [1]: https://issues.sonatype.org/
 [2]: https://issues.sonatype.org/secure/Signup!default.jspa
 [3]: https://issues.sonatype.org/login.jsp?os_destination=%2Fsecure%2FSignup%21default.jspa
 [4]: https://www.gpg4win.org/
 [5]: https://oss.sonatype.org/
+[6]: https://habrahabr.ru/post/171493/
+[7]: http://www.sonatype.org/nexus/2015/06/02/how-to-publish-software-artifacts-to-maven-central/
